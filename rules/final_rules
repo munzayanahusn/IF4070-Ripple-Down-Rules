@@ -17,6 +17,12 @@ Conclusion: Specific Phobia" style=rounded]
 	node211 [label="Condition: ['Physical Complaints']
 Conclusion: Restless Legs Syndrome" style=rounded]
 	node21 -> node211
+	node2111 [label="Condition: ['mood swings', 'sensory sensitivities', 'speech delay', 'impulsivity']
+Conclusion: adhd (attention-deficit/hyperactivity disorder)" style=rounded]
+	node211 -> node2111
+	node2112 [label="Condition: ['social withdrawal', 'sadness/depression', 'speech delay']
+Conclusion: intellectual development disorder" style=rounded]
+	node211 -> node2112
 	node212 [label="Condition: ['physical complaints']
 Conclusion: illness anxiety disorder" style=rounded]
 	node21 -> node212
@@ -32,16 +38,75 @@ Conclusion: separation anxiety disorder" style=rounded]
 	node2121111 [label="Condition: ['sadness/depression']
 Conclusion: insomnia disorder" style=rounded]
 	node212111 -> node2121111
-	node2121112 [label="" style=invis]
-	node212111 -> node2121112 [style=invis]
+	node21211111 [label="" style=invis]
+	node2121111 -> node21211111 [style=invis]
+	node21211112 [label="Condition: ['emotional eating']
+Conclusion: major depressive disorder" style=rounded]
+	node2121111 -> node21211112
+	node212111121 [label="Condition: ['mood swings', 'sensory sensitivities', 'hallucinations/delusions']
+Conclusion: schizophrenia" style=rounded]
+	node21211112 -> node212111121
+	node212111122 [label="" style=invis]
+	node21211112 -> node212111122 [style=invis]
+	node2121112 [label="Condition: ['obsessive thoughts']
+Conclusion: obsessive-compulsive disorder" style=rounded]
+	node212111 -> node2121112
+	node21211121 [label="Condition: ['sadness/depression']
+Conclusion: panic disorder" style=rounded]
+	node2121112 -> node21211121
+	node212111211 [label="" style=invis]
+	node21211121 -> node212111211 [style=invis]
+	node212111212 [label="Condition: ['sensory sensitivities', 'emotional eating']
+Conclusion: generalized anxiety disorder" style=rounded]
+	node21211121 -> node212111212
+	node21211122 [label="" style=invis]
+	node2121112 -> node21211122 [style=invis]
 	node212112 [label="" style=invis]
 	node21211 -> node212112 [style=invis]
-	node21212 [label="" style=invis]
-	node2121 -> node21212 [style=invis]
-	node2122 [label="" style=invis]
-	node212 -> node2122 [style=invis]
-	node22 [label="" style=invis]
-	node2 -> node22 [style=invis]
+	node21212 [label="Condition: ['sensory sensitivities']
+Conclusion: autism spectrum disorder" style=rounded]
+	node2121 -> node21212
+	node2122 [label="Condition: ['sensory sensitivities']
+Conclusion: conversion disorder" style=rounded]
+	node212 -> node2122
+	node21221 [label="Condition: ['sadness/depression']
+Conclusion: somatic symptom disorder" style=rounded]
+	node2122 -> node21221
+	node212211 [label="" style=invis]
+	node21221 -> node212211 [style=invis]
+	node212212 [label="Condition: ['obsessive thoughts']
+Conclusion: anorexia nervosa" style=rounded]
+	node21221 -> node212212
+	node2122121 [label="" style=invis]
+	node212212 -> node2122121 [style=invis]
+	node2122122 [label="Condition: ['emotional eating']
+Conclusion: binge eating disorder" style=rounded]
+	node212212 -> node2122122
+	node21222 [label="" style=invis]
+	node2122 -> node21222 [style=invis]
+	node22 [label="Condition: ['social withdrawal', 'speech delay', 'physical complaints']
+Conclusion: global developmental delay" style=rounded]
+	node2 -> node22
+	node221 [label="Condition: ['anxiety', 'sadness/depression']
+Conclusion: dissociative amnesia" style=rounded]
+	node22 -> node221
+	node2211 [label="" style=invis]
+	node221 -> node2211 [style=invis]
+	node2212 [label="Condition: ['hallucinations/delusions']
+Conclusion: depersonalization disorder" style=rounded]
+	node221 -> node2212
+	node22121 [label="" style=invis]
+	node2212 -> node22121 [style=invis]
+	node22122 [label="Condition: ['mood swings', 'impulsivity']
+Conclusion: alcohol use disorder" style=rounded]
+	node2212 -> node22122
+	node221221 [label="Condition: ['hallucinations/delusions', 'continuous nightmares']
+Conclusion: acute stress disorder" style=rounded]
+	node22122 -> node221221
+	node221222 [label="" style=invis]
+	node22122 -> node221222 [style=invis]
+	node222 [label="" style=invis]
+	node22 -> node222 [style=invis]
 	layout=dot
 	ordering=out
 }
