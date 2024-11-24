@@ -1,0 +1,41 @@
+Narcolepsy = [Memory Loss]
+
+Specific Phobia = [Anxiety, Social Withdrawal]
+Restless Legs Syndrome = [Anxiety, Physical Complaints]
+
+Illness Anxiety Disorder = [Anxiety, Social Withdrawal, Physical Complaints]
+Communication Disorder = [Anxiety, Social Withdrawal, Speech Delay]
+Social Anxiety Disorder = [Anxiety, Social Withdrawal, Fear of Scrutiny]
+Separation Anxiety Disorder = [Anxiety, Social Withdrawal, Continuous Nightmares]
+Insomnia Disorder = [Sadness/Depression, Anxiety, Social Withdrawal]
+
+Global Developmental Delay = [Social Withdrawal, Memory Loss, Physical Complaints, Speech Delay]
+Conversion Disorder = [Anxiety, Social Withdrawal, Physical Complaints, Sensory Sensitivities]
+Obsessive-Compulsive Disorder = [Anxiety, Social Withdrawal, Obsessive Thoughts, Continuous Nightmares]
+Autism Spectrum Disorder = [Anxiety, Social Withdrawal, Speech Delay, Sensory Sensitivities]
+Dissociative Amnesia = [Sadness/Depression, Anxiety, Social Withdrawal, Memory Loss]
+Somatic Symptom Disorder = [Sadness/Depression, Anxiety, Social Withdrawal, Physical Complaints]
+Intellectual Development Disorder = [Sadness/Depression, Social Withdrawal, Physical Complaints, Speech Delay]
+Panic Disorder = [Sadness/Depression, Anxiety, Social Withdrawal, Continuous Nightmares]
+Major Depressive Disorder = [Sadness/Depression, Anxiety, Social Withdrawal, Emotional Eating]
+
+Depersonalization Disorder = [Sadness/Depression, Anxiety, Social Withdrawal, Memory Loss, Hallucinations/Delusions]
+Anorexia Nervosa = [Sadness/Depression, Anxiety, Social Withdrawal, Obsessive Thoughts, Physical Complaints]
+ADHD (Attention-Deficit/Hyperactivity Disorder) = [Mood Swings, Anxiety, Impulsivity, Speech Delay, Sensory Sensitivities]
+
+Binge Eating Disorder = [Sadness/Depression, Anxiety, Social Withdrawal, Obsessive Thoughts, Physical Complaints, Emotional Eating]
+Generalized Anxiety Disorder = [Sadness/Depression, Anxiety, Social Withdrawal, Sensory Sensitivities, Continuous Nightmares, Emotional Eating]
+Alcohol Use Disorder = [Sadness/Depression, Mood Swings, Anxiety, Social Withdrawal, Impulsivity, Memory Loss]
+Schizophrenia = [Sadness/Depression, Mood Swings, Anxiety, Social Withdrawal, Hallucinations/Delusions, Sensory Sensitivities]
+
+Acute Stress Disorder = [Sadness/Depression, Anxiety, Social Withdrawal, Impulsivity, Memory Loss, Hallucinations/Delusions, Continuous Nightmares]
+Bulimia Nervosa = [Sadness/Depression, Anxiety, Social Withdrawal, Impulsivity, Obsessive Thoughts, Physical Complaints, Emotional Eating]
+Dissociative Identity Disorder = [Sadness/Depression, Mood Swings, Anxiety, Social Withdrawal, Impulsivity, Memory Loss, Hallucinations/Delusions]
+Bipolar Disorder = [Sadness/Depression, Mood Swings, Anxiety, Impulsivity, Hallucinations/Delusions, Sensory Sensitivities, Continuous Nightmares]
+Borderline Personality Disorder = [Sadness/Depression, Mood Swings, Anxiety, Social Withdrawal, Impulsivity, Sensory Sensitivities, Emotional Eating]
+
+PTSD (Post-Traumatic Stress Disorder) = [Sadness/Depression, Anxiety, Social Withdrawal, Impulsivity, Memory Loss, Hallucinations/Delusions, Sensory Sensitivities, Continuous Nightmares]
+
+
+
+
