@@ -5,23 +5,24 @@ Program ini dibuat untuk memenuhi capaian kurikulum Tugas Besar IF4070 Represent
 ## *Table of Contents*
 - [Deskripsi Singkat](#deskripsi)
 - [*Requirement* Program](#req)
-- [Langkah Meng-*compile* Program](#compile)
-- [Cara Menggunakan Program](#penggunaan)
+- [Cara Menjalankan Program](#penggunaan)
 - [Lampiran](#lampiran)
 - [*Authors*](#author)
 
 ## Deskripsi Singkat <a name="deskripsi"></a>
-Program ini dibuat dengan menggunakan bahasa Python pada perangkat lunak Jupyter Notebook. <br>
+Program ini dibuat dengan menggunakan bahasa Python pada perangkat lunak Jupyter Notebook. Pengguna dapat meng-input symptoms atau gejala berkaitan dengan kesehatan mental. Program akan nampilin hasil inferensi atau conclusionnya. Jika expert tidak setuju, bisa masukin illness baru sehingga terbentuk rule baru dan binary tree RDR akan diupdate. Setelah diupdate, rule baru tersebut akan disimpan dan bisa lihat visualisasi graf melalui file pdf yang dihasilkan.
 Program dapat melakukan visualisasi sistem RDR yang telah ditulis secara manual dengan menampilkannya pada sebuah *file* PDF.
 
 ## *Requirement* Program <a name="req"></a>
 Beberapa hal yang harus dimiliki pengguna supaya program dapat dijalankan:
 - <a href=https://jupyter.org/install>Jupyter Notebook</a>
 - <a href=https://github.com/munzayanahusn/IF4070-Ripple-Down-Rules>*Repository* GitHub "IF4070-Ripple Down Rules"</a>
-
-## Langkah Meng-*compile* Program <a name="compile"></a>
+- colorama
+- graphvis????
 
 ## Cara Menggunakan Program <a name="penggunaan"></a>
+> [!TIP]
+> Bisa gunain colab : https://colab.research.google.com/drive/1FEBj3dvj08GJektpmDcAr9lNoL-TXlA7?usp=sharing
 
 ## Lampiran <a name="lampiran"></a>
 - Repository GitHub : https://github.com/munzayanahusn/IF4070-Ripple-Down-Rules
