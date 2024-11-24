@@ -1,0 +1,7 @@
+True : obj.condition == None : obj.symptoms == None : obj.conclusion == Healty
+    obj.condition == None : obj.symptoms == None : obj.conclusion == None
+    obj.condition == [Memory Loss] : obj.symptoms == [Memory Loss] : obj.conclusion == Narcolepsy
+        obj.condition == [Anxiety, Social Withdrawal] : obj.symptoms == [Anxiety, Social Withdrawal] : obj.conclusion == Specific Phobia
+            obj.condition == [Physical Complaints] : obj.symptoms == [Anxiety, Physical Complaints]  : obj.conclusion == Restless Legs Syndrome
+            obj.condition == None : obj.symptoms == None : obj.conclusion == None
+        obj.condition == None : obj.symptoms == None : obj.symptoms == None : obj.conclusion == None
