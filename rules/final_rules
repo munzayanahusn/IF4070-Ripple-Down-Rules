@@ -1,0 +1,27 @@
+// Decision Tree
+digraph {
+	rankdir=TB
+	node [shape=box]
+	nodesep=1.0
+	ranksep=0.8
+	node0 [label="Condition: True
+Conclusion: Healty" style=rounded]
+	node1 [label="" style=invis]
+	node0 -> node1 [style=invis]
+	node2 [label="Condition: ['Memory Loss']
+Conclusion: Narcolepsy" style=rounded]
+	node0 -> node2
+	node21 [label="Condition: ['Anxiety', 'Social Withdrawal']
+Conclusion: Specific Phobia" style=rounded]
+	node2 -> node21
+	node211 [label="Condition: ['Physical Complaints']
+Conclusion: Restless Legs Syndrome" style=rounded]
+	node21 -> node211
+	node212 [label="Condition: ['physical complains']
+Conclusion: illness anxiety disorder" style=rounded]
+	node21 -> node212
+	node22 [label="" style=invis]
+	node2 -> node22 [style=invis]
+	layout=dot
+	ordering=out
+}

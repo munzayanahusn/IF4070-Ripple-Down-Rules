@@ -1,7 +1,7 @@
-True : obj.condition == None : obj.symptoms == None : obj.conclusion == Healty
+True : obj.condition == ['None'] : obj.symptoms == ['None'] : obj.conclusion == Healty
     obj.condition == None : obj.symptoms == None : obj.conclusion == None
-    obj.condition == [Memory Loss] : obj.symptoms == [Memory Loss] : obj.conclusion == Narcolepsy
-        obj.condition == [Anxiety, Social Withdrawal] : obj.symptoms == [Anxiety, Social Withdrawal] : obj.conclusion == Specific Phobia
-            obj.condition == [Physical Complaints] : obj.symptoms == [Anxiety, Physical Complaints]  : obj.conclusion == Restless Legs Syndrome
-            obj.condition == None : obj.symptoms == None : obj.conclusion == None
+    obj.condition == ['Memory Loss'] : obj.symptoms == ['Memory Loss'] : obj.conclusion == Narcolepsy
+        obj.condition == ['Anxiety', 'Social Withdrawal'] : obj.symptoms == ['Anxiety', 'Social Withdrawal'] : obj.conclusion == Specific Phobia
+            obj.condition == ['Physical Complaints'] : obj.symptoms == ['Anxiety', 'Physical Complaints'] : obj.conclusion == Restless Legs Syndrome
+            obj.condition == ['physical complains'] : obj.symptoms == ['A', 'n', 'x', 'i', 'e', 't', 'y', ',', ' ', 'S', 'o', 'c', 'i', 'a', 'l', ' ', 'W', 'i', 't', 'h', 'd', 'r', 'a', 'w', 'a', 'l', ',', ' ', 'P', 'h', 'y', 's', 'i', 'c', 'a', 'l', ' ', 'C', 'o', 'm', 'p', 'l', 'a', 'i', 'n', 's'] : obj.conclusion == illness anxiety disorder
         obj.condition == None : obj.symptoms == None : obj.conclusion == None
