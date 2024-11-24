@@ -4,4 +4,10 @@ True : obj.condition == ['None'] : obj.symptoms == ['None'] : obj.conclusion == 
         obj.condition == ['Anxiety', 'Social Withdrawal'] : obj.symptoms == ['Anxiety', 'Social Withdrawal'] : obj.conclusion == Specific Phobia
             obj.condition == ['Physical Complaints'] : obj.symptoms == ['Anxiety', 'Physical Complaints'] : obj.conclusion == Restless Legs Syndrome
             obj.condition == ['physical complaints'] : obj.symptoms == ['anxiety', 'social withdrawal', 'physical complaints'] : obj.conclusion == illness anxiety disorder
+                obj.condition == ['speech delay'] : obj.symptoms == ['anxiety', 'social withdrawal', 'speech delay'] : obj.conclusion == communication disorder
+                    obj.condition == ['fear of scrutiny'] : obj.symptoms == ['anxiety', 'social withdrawal', 'fear of scrutiny'] : obj.conclusion == social anxiety disorder
+                        obj.condition == ['continuous nightmares'] : obj.symptoms == ['anxiety', 'social withdrawal', 'continuous nightmares'] : obj.conclusion == separation anxiety disorder
+                        obj.condition == None : obj.symptoms == None : obj.conclusion == None
+                    obj.condition == None : obj.symptoms == None : obj.conclusion == None
+                obj.condition == None : obj.symptoms == None : obj.conclusion == None
         obj.condition == None : obj.symptoms == None : obj.conclusion == None

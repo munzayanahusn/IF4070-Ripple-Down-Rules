@@ -20,6 +20,21 @@ Conclusion: Restless Legs Syndrome" style=rounded]
 	node212 [label="Condition: ['physical complaints']
 Conclusion: illness anxiety disorder" style=rounded]
 	node21 -> node212
+	node2121 [label="Condition: ['speech delay']
+Conclusion: communication disorder" style=rounded]
+	node212 -> node2121
+	node21211 [label="Condition: ['fear of scrutiny']
+Conclusion: social anxiety disorder" style=rounded]
+	node2121 -> node21211
+	node212111 [label="Condition: ['continuous nightmares']
+Conclusion: separation anxiety disorder" style=rounded]
+	node21211 -> node212111
+	node212112 [label="" style=invis]
+	node21211 -> node212112 [style=invis]
+	node21212 [label="" style=invis]
+	node2121 -> node21212 [style=invis]
+	node2122 [label="" style=invis]
+	node212 -> node2122 [style=invis]
 	node22 [label="" style=invis]
 	node2 -> node22 [style=invis]
 	layout=dot
