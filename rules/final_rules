@@ -29,6 +29,11 @@ Conclusion: social anxiety disorder" style=rounded]
 	node212111 [label="Condition: ['continuous nightmares']
 Conclusion: separation anxiety disorder" style=rounded]
 	node21211 -> node212111
+	node2121111 [label="Condition: ['sadness/depression']
+Conclusion: insomnia disorder" style=rounded]
+	node212111 -> node2121111
+	node2121112 [label="" style=invis]
+	node212111 -> node2121112 [style=invis]
 	node212112 [label="" style=invis]
 	node21211 -> node212112 [style=invis]
 	node21212 [label="" style=invis]

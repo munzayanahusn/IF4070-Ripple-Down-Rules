@@ -7,6 +7,8 @@ True : obj.condition == ['None'] : obj.symptoms == ['None'] : obj.conclusion == 
                 obj.condition == ['speech delay'] : obj.symptoms == ['anxiety', 'social withdrawal', 'speech delay'] : obj.conclusion == communication disorder
                     obj.condition == ['fear of scrutiny'] : obj.symptoms == ['anxiety', 'social withdrawal', 'fear of scrutiny'] : obj.conclusion == social anxiety disorder
                         obj.condition == ['continuous nightmares'] : obj.symptoms == ['anxiety', 'social withdrawal', 'continuous nightmares'] : obj.conclusion == separation anxiety disorder
+                            obj.condition == ['sadness/depression'] : obj.symptoms == ['sadness/depression', 'anxiety', 'social withdrawal'] : obj.conclusion == insomnia disorder
+                            obj.condition == None : obj.symptoms == None : obj.conclusion == None
                         obj.condition == None : obj.symptoms == None : obj.conclusion == None
                     obj.condition == None : obj.symptoms == None : obj.conclusion == None
                 obj.condition == None : obj.symptoms == None : obj.conclusion == None
