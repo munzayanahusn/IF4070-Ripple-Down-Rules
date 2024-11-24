@@ -17,7 +17,7 @@ Conclusion: Specific Phobia" style=rounded]
 	node211 [label="Condition: ['Physical Complaints']
 Conclusion: Restless Legs Syndrome" style=rounded]
 	node21 -> node211
-	node212 [label="Condition: ['physical complains']
+	node212 [label="Condition: ['physical complaints']
 Conclusion: illness anxiety disorder" style=rounded]
 	node21 -> node212
 	node22 [label="" style=invis]
