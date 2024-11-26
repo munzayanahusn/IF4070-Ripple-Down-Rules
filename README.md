@@ -10,7 +10,7 @@ Program ini dibuat untuk memenuhi capaian kurikulum Tugas Besar IF4070 Represent
 - [*Authors*](#author)
 
 ## Deskripsi Singkat <a name="deskripsi"></a>
-Program RDR ini dibuat menggunakan bahasa Python. Program dibuat agar user(expert) dapat memasukkan gejala (symptoms) yang berkaitan dengan kesehatan mental. Program kemudian akan menampilkan hasil inferensi atau kesimpulan (conclusion). Jika user(expert) tidak setuju dengan hasil tersebut, maka dapat dimasukan penyakit baru (illness), yang akan membentuk aturan (rule) baru. Aturan baru ini akan memperbarui pohon biner RDR (Ripple Down Rules). Setelah pembaruan, aturan baru tersebut akan disimpan dalam bentuk file .rules dan dapat divisualisasikan juga yang dapat dilihat melalui file PDF. 
+Program RDR ini dibuat menggunakan bahasa Python. Program dibuat agar user(expert) dapat memasukkan gejala (symptoms) yang berkaitan dengan kesehatan mental. Program kemudian akan menampilkan hasil inferensi atau kesimpulan (conclusion). Jika user(expert) tidak setuju dengan hasil tersebut, maka dapat dimasukan penyakit baru (illness), yang akan membentuk aturan (rule) baru. Aturan baru ini akan memperbarui pohon biner RDR (Ripple Down Rules). Setelah pembaruan, aturan baru tersebut akan disimpan dalam bentuk file .rules dan divisualisasikan juga yang dapat dilihat melalui file PDF. 
 
 ## *Requirement* Program <a name="req"></a>
 Beberapa hal yang harus dimiliki pengguna supaya program dapat dijalankan:
@@ -21,9 +21,14 @@ Beberapa hal yang harus dimiliki pengguna supaya program dapat dijalankan:
 - Ipywidgets
 
 ## Cara Run Program <a name="penggunaan"></a>
-- Versi 1 : bisa dengan google colab : https://colab.research.google.com/drive/1FEBj3dvj08GJektpmDcAr9lNoL-TXlA7?usp=sharing. Adapun untuk tutorial run dapat dilihat pada tautan video <a href=https://youtu.be/Yx7qZ9pzZrM>berikut</a>
-- Versi 2 : bisa dengan jupyter notebook : Adapun untuk tutorial run dapat dilihat pada tautan video <a href=https://youtu.be/FoQSLsS5Gxk>berikut</a>
-- Versi 3 : bisa dengan visual studio code : Adapun untuk tutorial run dapat dilihat pada tautan video berikut <a href=https://youtu.be/hz0GbFKIOws>berikut</a> 
+- Melalui Google Colab : https://colab.research.google.com/drive/1FEBj3dvj08GJektpmDcAr9lNoL-TXlA7?usp=sharing. <br>Tutorial menjalankan program dapat dilihat pada tautan video <a href=https://youtu.be/Yx7qZ9pzZrM>berikut</a>
+- Melalui Jupyter Notebook : `src\IF4070_Ripple_Down_Rules.ipynb` <br>Adapun tutorial menjalankan program dapat dilihat pada tautan video <a href=https://youtu.be/FoQSLsS5Gxk>berikut</a>
+- Melalui Visual Studio Code : `src\IF4070_Ripple_Down_Rules.ipynb` <br>Adapun tutorial menjalankan program dapat dilihat pada tautan video berikut <a href=https://youtu.be/hz0GbFKIOws>berikut</a>
+<br><br>
+> [!TIP]
+> Langkah menjalankan program juga dapat dilihat pada file dokumentasi pada `docs\IF4070-Tugas Ripple Down Rule-13521076 13521077 13521115.pdf` <br>
+> Daftar rules tersimpan dapat dilihat pada `rules\mental-illness.rules.txt`<br>
+> Hasil visualisasi graf dapat dilihat pada `rules\final_rules.pdf`
 
 ## Lampiran <a name="lampiran"></a>
 - Repository GitHub : https://github.com/munzayanahusn/IF4070-Ripple-Down-Rules
