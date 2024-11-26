@@ -22,7 +22,7 @@ Beberapa hal yang harus dimiliki pengguna supaya program dapat dijalankan:
 - Ipywidgets
 
 ## Cara Run Program <a name="penggunaan"></a>
-- Versi 1 : bisa dengan google colab : <a href=https://colab.research.google.com/drive/1FEBj3dvj08GJektpmDcAr9lNoL-TXlA7?usp=sharing>link</a></td>. Adapun untuk tutorial run dapat dilihat pada tautan video <a href=https://youtu.be/Yx7qZ9pzZrM>berikut</a>
+- Versi 1 : bisa dengan google colab : <a href=https://colab.research.google.com/drive/1FEBj3dvj08GJektpmDcAr9lNoL-TXlA7?usp=sharing>link</a>. Adapun untuk tutorial run dapat dilihat pada tautan video <a href=https://youtu.be/Yx7qZ9pzZrM>berikut</a>
 - Versi 2 : bisa dengan jupyter notebook : Adapun untuk tutorial run dapat dilihat pada tautan video <a href=https://youtu.be/FoQSLsS5Gxk>berikut</a>
 - Versi 3 : bisa dengan visual studio code : Adapun untuk tutorial run dapat dilihat pada tautan video berikut <a href=https://youtu.be/hz0GbFKIOws>berikut</a> 
 
