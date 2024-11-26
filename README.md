@@ -10,8 +10,7 @@ Program ini dibuat untuk memenuhi capaian kurikulum Tugas Besar IF4070 Represent
 - [*Authors*](#author)
 
 ## Deskripsi Singkat <a name="deskripsi"></a>
-Program ini dibuat dengan menggunakan bahasa Python pada perangkat lunak Jupyter Notebook. Pengguna dapat meng-input symptoms atau gejala berkaitan dengan kesehatan mental. Program akan nampilin hasil inferensi atau conclusionnya. Jika expert tidak setuju, bisa masukin illness baru sehingga terbentuk rule baru dan binary tree RDR akan diupdate. Setelah diupdate, rule baru tersebut akan disimpan dan bisa lihat visualisasi graf melalui file pdf yang dihasilkan.
-Program dapat melakukan visualisasi sistem RDR yang telah ditulis secara manual dengan menampilkannya pada sebuah *file* PDF.
+Program RDR ini dibuat menggunakan bahasa Python. Program dibuat agar user(expert) dapat memasukkan gejala (symptoms) yang berkaitan dengan kesehatan mental. Program kemudian akan menampilkan hasil inferensi atau kesimpulan (conclusion). Jika user(expert) tidak setuju dengan hasil tersebut, maka dapat dimasukan penyakit baru (illness), yang akan membentuk aturan (rule) baru. Aturan baru ini akan memperbarui pohon biner RDR (Rule-Driven Reasoning). Setelah pembaruan, aturan baru tersebut akan disimpan dalam bentuk file .rules dan dapat divisualisasikan juga yang dapat dilihat melalui file PDF. 
 
 ## *Requirement* Program <a name="req"></a>
 Beberapa hal yang harus dimiliki pengguna supaya program dapat dijalankan:
