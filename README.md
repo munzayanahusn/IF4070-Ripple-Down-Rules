@@ -10,7 +10,7 @@ Program ini dibuat untuk memenuhi capaian kurikulum Tugas Besar IF4070 Represent
 - [*Authors*](#author)
 
 ## Deskripsi Singkat <a name="deskripsi"></a>
-Program RDR ini dibuat menggunakan bahasa Python. Program dibuat agar user(expert) dapat memasukkan gejala (symptoms) yang berkaitan dengan kesehatan mental. Program kemudian akan menampilkan hasil inferensi atau kesimpulan (conclusion). Jika user(expert) tidak setuju dengan hasil tersebut, maka dapat dimasukan penyakit baru (illness), yang akan membentuk aturan (rule) baru. Aturan baru ini akan memperbarui pohon biner RDR (Rule-Driven Reasoning). Setelah pembaruan, aturan baru tersebut akan disimpan dalam bentuk file .rules dan dapat divisualisasikan juga yang dapat dilihat melalui file PDF. 
+Program RDR ini dibuat menggunakan bahasa Python. Program dibuat agar user(expert) dapat memasukkan gejala (symptoms) yang berkaitan dengan kesehatan mental. Program kemudian akan menampilkan hasil inferensi atau kesimpulan (conclusion). Jika user(expert) tidak setuju dengan hasil tersebut, maka dapat dimasukan penyakit baru (illness), yang akan membentuk aturan (rule) baru. Aturan baru ini akan memperbarui pohon biner RDR (Ripple Down Rules). Setelah pembaruan, aturan baru tersebut akan disimpan dalam bentuk file .rules dan dapat divisualisasikan juga yang dapat dilihat melalui file PDF. 
 
 ## *Requirement* Program <a name="req"></a>
 Beberapa hal yang harus dimiliki pengguna supaya program dapat dijalankan:
