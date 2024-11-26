@@ -24,7 +24,9 @@ Beberapa hal yang harus dimiliki pengguna supaya program dapat dijalankan:
 ## Cara Run Program <a name="penggunaan"></a>
 > [!TIP]
 > Versi 1 : bisa dengan google colab : https://colab.research.google.com/drive/1FEBj3dvj08GJektpmDcAr9lNoL-TXlA7?usp=sharing. Adapun untuk tutorial run dapat dilihat pada tautan video berikut <a link="[penggunaan](https://youtu.be/Yx7qZ9pzZrM)"></a>
+> [!TIP]
 > Versi 2 : bisa dengan jupyter notebook : Adapun untuk tutorial run dapat dilihat pada tautan video berikut <a link="[penggunaan](https://youtu.be/FoQSLsS5Gxk)"></a>
+> [!TIP]
 > Versi 3 : bisa dengan visual studio code : Adapun untuk tutorial run dapat dilihat pada tautan video berikut <a link="[penggunaan](https://youtu.be/hz0GbFKIOws)"></a>
 
 ## Lampiran <a name="lampiran"></a>
