@@ -1,6 +1,6 @@
 # Tugas Besar IF4070 Representasi Pengetahuan dan Penalaran 2024/2025: Ripple Down Rules untuk Membantu Seseorang Menentukan Jenis Gangguan Mental yang Diderita
 
-Program ini dibuat untuk memenuhi capaian kurikulum Tugas Besar IF4070 Representasi Pengetahuan dan Penalaran 2024/2025, yaitu pengembangan aplikasi intelijen berbasis pada penalaran dengan perkecualian seperti *Ripple Down Rule* (RDR).
+Program ini dibuat untuk memenuhi capaian kurikulum Tugas Besar IF4070 Representasi Pengetahuan dan Penalaran 2024/2025, yaitu pengembangan aplikasi intelijen berbasis pada penalaran dengan perkecualian seperti *Ripple Down Rule* (RDR). Adapun tema yang diambil pada tugas ini berkaitan dengan gangguan mental. 
 
 ## *Table of Contents*
 - [Deskripsi Singkat](#deskripsi)
@@ -18,15 +18,20 @@ Beberapa hal yang harus dimiliki pengguna supaya program dapat dijalankan:
 - <a href=https://jupyter.org/install>Jupyter Notebook</a>
 - <a href=https://github.com/munzayanahusn/IF4070-Ripple-Down-Rules>*Repository* GitHub "IF4070-Ripple Down Rules"</a>
 - colorama
-- graphvis????
+- Graphviz
+- Ipywidgets
 
-## Cara Menggunakan Program <a name="penggunaan"></a>
+## Cara Run Program <a name="penggunaan"></a>
 > [!TIP]
-> Bisa gunain colab : https://colab.research.google.com/drive/1FEBj3dvj08GJektpmDcAr9lNoL-TXlA7?usp=sharing
+> Versi 1 : bisa dengan google colab : https://colab.research.google.com/drive/1FEBj3dvj08GJektpmDcAr9lNoL-TXlA7?usp=sharing. Adapun untuk tutorial run dapat dilihat pada tautan video berikut <a link="[penggunaan](https://youtu.be/Yx7qZ9pzZrM)"></a>
+> Versi 2 : bisa dengan jupyter notebook : Adapun untuk tutorial run dapat dilihat pada tautan video berikut <a link="[penggunaan](https://youtu.be/FoQSLsS5Gxk)"></a>
+> Versi 3 : bisa dengan visual studio code : Adapun untuk tutorial run dapat dilihat pada tautan video berikut <a link="[penggunaan](https://youtu.be/hz0GbFKIOws)"></a>
 
 ## Lampiran <a name="lampiran"></a>
 - Repository GitHub : https://github.com/munzayanahusn/IF4070-Ripple-Down-Rules
-
+- Dataset yang digunakan untuk pembangunan rule : https://drive.google.com/file/d/1Qh6IybiYPQuWL0lFuD71_Js9fc3xL6QO/view?usp=sharing
+- Bentuk rules lengkap yang telah dibangun dalam bentuk pdf : https://drive.google.com/file/d/1-1d6iZqpviNFsMe3vxz1C2LzIgxwfYBx/view?usp=sharing
+  
 ## *Authors* <a name="author"></a>
 <table>
   <tr>
