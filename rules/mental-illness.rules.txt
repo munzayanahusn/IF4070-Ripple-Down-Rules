@@ -3,13 +3,35 @@ True : obj.condition == ['None'] : obj.symptoms == ['None'] : obj.conclusion == 
     obj.condition == ['Memory Loss'] : obj.symptoms == ['Memory Loss'] : obj.conclusion == Narcolepsy
         obj.condition == ['Anxiety', 'Social Withdrawal'] : obj.symptoms == ['Anxiety', 'Social Withdrawal'] : obj.conclusion == Specific Phobia
             obj.condition == ['Physical Complaints'] : obj.symptoms == ['Anxiety', 'Physical Complaints'] : obj.conclusion == Restless Legs Syndrome
+                obj.condition == ['impulsivity', 'sensory sensitivities', 'speech delay', 'mood swings'] : obj.symptoms == ['speech delay', 'anxiety', 'sensory sensitivities', 'mood swings', 'impulsivity'] : obj.conclusion == adhd (attention-deficit/hyperactivity disorder)
+                obj.condition == ['speech delay', 'social withdrawal', 'sadness/depression'] : obj.symptoms == ['speech delay', 'physical complaints', 'social withdrawal', 'sadness/depression'] : obj.conclusion == intellectual development disorder
             obj.condition == ['physical complaints'] : obj.symptoms == ['social withdrawal', 'physical complaints', 'anxiety'] : obj.conclusion == illness anxiety disorder
                 obj.condition == ['speech delay'] : obj.symptoms == ['speech delay', 'social withdrawal', 'anxiety'] : obj.conclusion == communication disorder
-                    obj.condition == ['fear of scrutiny'] : obj.symptoms == ['anxiety', 'social withdrawal', 'fear of scrutiny'] : obj.conclusion == social anxiety disorder
-                        obj.condition == ['continuous nightmares'] : obj.symptoms == ['anxiety', 'social withdrawal', 'continuous nightmares'] : obj.conclusion == separation anxiety disorder
-                            obj.condition == ['sadness/depression'] : obj.symptoms == ['sadness/depression', 'anxiety', 'social withdrawal'] : obj.conclusion == insomnia disorder
-                            obj.condition == None : obj.symptoms == None : obj.conclusion == None
+                    obj.condition == ['fear of scrutiny'] : obj.symptoms == ['social withdrawal', 'anxiety', 'fear of scrutiny'] : obj.conclusion == social anxiety disorder
+                        obj.condition == ['continuous nightmares'] : obj.symptoms == ['social withdrawal', 'continuous nightmares', 'anxiety'] : obj.conclusion == separation anxiety disorder
+                            obj.condition == ['sadness/depression'] : obj.symptoms == ['social withdrawal', 'anxiety', 'sadness/depression'] : obj.conclusion == insomnia disorder
+                                obj.condition == None : obj.symptoms == None : obj.conclusion == None
+                                obj.condition == ['emotional eating'] : obj.symptoms == ['emotional eating', 'social withdrawal', 'anxiety', 'sadness/depression'] : obj.conclusion == major depressive disorder
+                                    obj.condition == ['hallucinations/delusions', 'mood swings', 'sensory sensitivities'] : obj.symptoms == ['sensory sensitivities', 'social withdrawal', 'anxiety', 'hallucinations/delusions', 'mood swings', 'sadness/depression'] : obj.conclusion == schizophrenia
+                                    obj.condition == None : obj.symptoms == None : obj.conclusion == None
+                            obj.condition == ['obsessive thoughts'] : obj.symptoms == ['continuous nightmares', 'social withdrawal', 'obsessive thoughts', 'anxiety'] : obj.conclusion == obsessive-compulsive disorder
+                                obj.condition == ['sadness/depression'] : obj.symptoms == ['social withdrawal', 'anxiety', 'continuous nightmares', 'sadness/depression'] : obj.conclusion == panic disorder
+                                    obj.condition == None : obj.symptoms == None : obj.conclusion == None
+                                    obj.condition == ['sensory sensitivities', 'emotional eating'] : obj.symptoms == ['sensory sensitivities', 'social withdrawal', 'anxiety', 'continuous nightmares', 'emotional eating', 'sadness/depression'] : obj.conclusion == generalized anxiety disorder
+                                obj.condition == None : obj.symptoms == None : obj.conclusion == None
                         obj.condition == None : obj.symptoms == None : obj.conclusion == None
+                    obj.condition == ['sensory sensitivities'] : obj.symptoms == ['speech delay', 'sensory sensitivities', 'social withdrawal', 'anxiety'] : obj.conclusion == autism spectrum disorder
+                obj.condition == ['sensory sensitivities'] : obj.symptoms == ['sensory sensitivities', 'physical complaints', 'social withdrawal', 'anxiety'] : obj.conclusion == conversion disorder
+                    obj.condition == ['sadness/depression'] : obj.symptoms == ['physical complaints', 'social withdrawal', 'anxiety', 'sadness/depression'] : obj.conclusion == somatic symptom disorder
+                        obj.condition == None : obj.symptoms == None : obj.conclusion == None
+                        obj.condition == ['obsessive thoughts'] : obj.symptoms == ['social withdrawal', 'anxiety', 'obsessive thoughts', 'physical complaints', 'sadness/depression'] : obj.conclusion == anorexia nervosa
+                            obj.condition == None : obj.symptoms == None : obj.conclusion == None
+                            obj.condition == ['emotional eating'] : obj.symptoms == ['obsessive thoughts', 'physical complaints', 'social withdrawal', 'anxiety', 'emotional eating', 'sadness/depression'] : obj.conclusion == binge eating disorder
                     obj.condition == None : obj.symptoms == None : obj.conclusion == None
+        obj.condition == ['physical complaints', 'speech delay', 'social withdrawal'] : obj.symptoms == ['speech delay', 'physical complaints', 'social withdrawal', 'memory loss'] : obj.conclusion == global developmental delay
+            obj.condition == ['sadness/depression', 'anxiety'] : obj.symptoms == ['social withdrawal', 'memory loss', 'anxiety', 'sadness/depression'] : obj.conclusion == dissociative amnesia
                 obj.condition == None : obj.symptoms == None : obj.conclusion == None
-        obj.condition == None : obj.symptoms == None : obj.conclusion == None
+                obj.condition == ['hallucinations/delusions'] : obj.symptoms == ['social withdrawal', 'memory loss', 'anxiety', 'hallucinations/delusions', 'sadness/depression'] : obj.conclusion == depersonalization disorder
+                    obj.condition == ['mood swings', 'impulsivity'] : obj.symptoms == ['impulsivity', 'memory loss', 'social withdrawal', 'anxiety', 'mood swings', 'sadness/depression'] : obj.conclusion == alcohol use disorder
+                    obj.condition == ['continuous nightmares', 'impulsivity'] : obj.symptoms == ['sadness/depression', 'anxiety', 'social withdrawal', 'impulsivity', 'memory loss', 'hallucinations/delusions', 'continuous nightmares'] : obj.conclusion == acute stress disorder
+            obj.condition == None : obj.symptoms == None : obj.conclusion == None
