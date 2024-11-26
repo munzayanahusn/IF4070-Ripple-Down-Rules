@@ -21,7 +21,7 @@ Beberapa hal yang harus dimiliki pengguna supaya program dapat dijalankan:
 - Ipywidgets
 
 ## Cara Run Program <a name="penggunaan"></a>
-- Melalui Google Colab : https://colab.research.google.com/drive/1FEBj3dvj08GJektpmDcAr9lNoL-TXlA7?usp=sharing. <br>Tutorial menjalankan program dapat dilihat pada tautan video <a href=https://youtu.be/Yx7qZ9pzZrM>berikut</a>
+- Melalui Google Colab : https://colab.research.google.com/drive/1FEBj3dvj08GJektpmDcAr9lNoL-TXlA7?usp=sharing. <br>Tutorial menjalankan program dapat dilihat pada tautan video <a href=https://youtu.be/jOW0ZNBB5PE>berikut</a>
 - Melalui Jupyter Notebook : `src\IF4070_Ripple_Down_Rules.ipynb` <br>Adapun tutorial menjalankan program dapat dilihat pada tautan video <a href=https://youtu.be/FoQSLsS5Gxk>berikut</a>
 - Melalui Visual Studio Code : `src\IF4070_Ripple_Down_Rules.ipynb` <br>Adapun tutorial menjalankan program dapat dilihat pada tautan video berikut <a href=https://youtu.be/hz0GbFKIOws>berikut</a>
 <br><br>
